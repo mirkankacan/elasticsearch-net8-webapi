@@ -9,11 +9,9 @@ First, open your terminal and pull the necessary Docker images.
 
 Elasticsearch: Run the following command to pull Elasticsearch:
 
-bash
 docker pull elasticsearch:8.15.0
 Kibana (optional): If you want to monitor Elasticsearch with Kibana, pull the Kibana image as well:
 
-bash
 docker pull kibana:8.15.0
 
 3. Create a docker-compose.yaml File
@@ -46,7 +44,7 @@ volumes:
 4. Start the Services
 To start Elasticsearch and Kibana, run the following command in the directory where your docker-compose.yaml file is located:
 
-bash
+
 docker-compose up
 This command will launch both Elasticsearch and Kibana, making them accessible via:
 
@@ -62,7 +60,7 @@ If you've set up Kibana, you can access it at http://localhost:5601 to monitor y
 6. Stopping the Services
 To stop the services, simply run:
 
-bash
+
 docker-compose down
 This will stop and remove the containers, but the data will persist in the elasticsearch-data volume.
 
