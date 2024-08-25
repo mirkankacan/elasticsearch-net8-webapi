@@ -1,0 +1,6 @@
+@Elasticsearch.WebAPI_HostAddress = http://localhost:5265
+
+GET {{Elasticsearch.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
