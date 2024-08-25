@@ -19,7 +19,6 @@ docker pull kibana:8.15.0
 3. Create a docker-compose.yaml File
 Now, you are ready to set up Elasticsearch and Kibana using Docker Compose. Create a docker-compose.yaml file in your project directory with the following content:
 
-yaml
 version: '3.8'
 
 services:
